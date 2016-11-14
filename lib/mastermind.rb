@@ -29,19 +29,7 @@ class Mastermind
     calculate_time
   end
 
-  def verify_guess(current_guess)
-    @standing = evaluate_guess(current_guess)
-    if current_guess[0] == "C"
-      puts "Psst.. the code is #{computer.code_combination.join}"       
-    elsif standing[:exact].length == 4
-      guess_tracking
-      win
-      play_again?
-    else
-      guess_tracking
-      puts "You guessed \e[32m#{current_guess.join}\e[0m"
-    end
-  end
+  
   
   def play_game
     @start = Time.now

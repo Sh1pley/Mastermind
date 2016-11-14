@@ -12,6 +12,10 @@ module Text
     puts "==========================================================================="
   end
 
+  def cheat
+    puts "\e[33mPsst.. the code is #{computer.code_combination.join}\e[0m"
+  end
+
   def time
     puts "\e[35mTotal time played was #{@minutes} minutes, and #{@seconds} seconds!\e[0m"
     puts "==========================================================="
