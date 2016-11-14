@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'minitest/nyan_cat'
+require 'minitest/pride'
 require './lib/computer'
 
 class ComputerTest < Minitest::Test

@@ -42,7 +42,9 @@ module Text
   end
 
   def options
-    puts "Would you like to (P)lay or read the (I)nstructions?\nUse (Q)uit at any time to end the game.\n=========================================================================\n--->"
+    puts "Would you like to (P)lay or read the (I)nstructions?"
+    puts "Use (Q)uit at any time to end the game."
+    puts "===================================================================="
   end
 
   def choose_difficulty
@@ -54,7 +56,4 @@ module Text
     puts "#{@standing[:close].length} Correct Color Matches"
     puts "============================================================"
   end
-
-  
-
 end

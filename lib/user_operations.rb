@@ -9,7 +9,7 @@ module UserOperations
       instructions
       start_game
     else
-      puts "Oops, not recognized"  
+      puts "Oops, not recognized"
       start_game
     end
   end
@@ -49,5 +49,4 @@ module UserOperations
   def hard
     mastermind.hard_start
   end
-
 end

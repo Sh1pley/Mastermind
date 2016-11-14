@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'minitest/nyan_cat'
+require 'minitest/pride'
 require './lib/user'
 
 class UserTest < Minitest::Test

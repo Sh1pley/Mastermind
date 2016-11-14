@@ -27,5 +27,4 @@ class User
       guess.upcase.split('')
     end
   end
-
 end

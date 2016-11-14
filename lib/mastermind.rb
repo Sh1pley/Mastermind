@@ -32,7 +32,7 @@ class Mastermind
   def verify_guess(current_guess)
     @standing = evaluate_guess(current_guess)
     if current_guess[0] == "C"
-      puts "Psst.. the code is #{computer.code_combination.join}"        
+      puts "Psst.. the code is #{computer.code_combination.join}"       
     elsif standing[:exact].length == 4
       guess_tracking
       win

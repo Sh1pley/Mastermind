@@ -29,10 +29,10 @@ module GameSettings
 
   def check_guess_for_format(guess)
     if guess.length > 4
-      "\e[1;33mToo many, guess should be 4!\e[0m"
+      puts "\e[1;33mToo many, guess should be 4!\e[0m"
       user.converted_guess("...")
     elsif guess.length < 4
-      "\e[1;33mNot enough, guess should be 4!\e[0m"
+      puts "\e[1;33mNot enough, guess should be 4!\e[0m"
       user.converted_guess("...")
     else
       guess
