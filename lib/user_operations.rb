@@ -18,7 +18,7 @@ module UserOperations
     if input.upcase == "CLEAR"
       system 'clear'
       input
-    else  
+    else
       input
     end
   end
